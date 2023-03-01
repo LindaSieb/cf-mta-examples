@@ -23,4 +23,4 @@ steps:
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
   mtaBuild:
-    source: "./cf-app"
+    source: "../cf-app"
