@@ -22,3 +22,5 @@ steps:
     versioningType: "cloud_noTag"
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
+  mtaBuild:
+    source: "/cf-app/mta.yaml"
